@@ -1,4 +1,4 @@
-FROM cassandra:3.0.10
+FROM garnachod/cassandra:3.0
 
 # Install cUrl
 RUN apt-get update && apt-get install --yes curl
